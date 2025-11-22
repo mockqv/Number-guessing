@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
 import { height, width } from "../../constants/measures";
+import { colors } from "../../../themes/colors";
 
 const styles = StyleSheet.create({
   Button: {
@@ -7,10 +8,10 @@ const styles = StyleSheet.create({
     height: height * 0.1,
     justifyContent: "center",
     alignContent: "center",
-    backgroundColor: "#686D76",
+    backgroundColor: colors.background,
   },
   NumberText: {
-    color: "#FFFFFF",
+    color: colors.text,
     fontSize: 20,
   },
 });
