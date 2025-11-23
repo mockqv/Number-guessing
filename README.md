@@ -34,20 +34,7 @@ Este é um jogo simples de adivinhar o número, construído com React Native e E
    ```
 
 3. **Execute a aplicação:**
-   - **Para Android:**
-     ```bash
-     npm run android
-     ```
-   - **Para iOS:**
-     ```bash
-   npm run ios
-     ```
-   - **Para Web:**
-     ```bash
-     npm run web
-     ```
-
-   Alternativamente, você pode executar o aplicativo usando o aplicativo Expo Go em seu dispositivo móvel.
+   Você pode executar o aplicativo usando o aplicativo Expo Go em seu dispositivo móvel.
    ```bash
    npm start
    ```
