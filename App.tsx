@@ -1,7 +1,11 @@
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaView, StyleSheet, Text } from "react-native";
 import { height, width } from "./src/constants/measures";
-import { TextInput, Provider as PaperProvider } from "react-native-paper";
+import {
+  TextInput,
+  Provider as PaperProvider,
+  MD3DarkTheme,
+} from "react-native-paper";
 import { useEffect, useState } from "react";
 import getRandomIntInclusive from "./src/functions/getRandomInt";
 import checkTrie from "./src/functions/checkTrie";
@@ -28,9 +32,10 @@ export default function App() {
   const [hint, setHint] = useState<string>("");
 
   const theme = {
+    ...MD3DarkTheme,
     colors: {
-      primary: colors.primary,
-      background: colors.background,
+      ...MD3DarkTheme.colors,
+      ...colors,
     },
   };
 

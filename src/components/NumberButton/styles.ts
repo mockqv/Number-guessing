@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 import { height, width } from "../../constants/measures";
-import { colors } from "../../../themes/colors";
+import { colors } from "../../themes/colors";
 
 const styles = StyleSheet.create({
   Button: {
