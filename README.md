@@ -1,38 +1,54 @@
-# Number Guessing Game
+# Jogo de Adivinhar o Número
 
-This is a simple number guessing game built with React Native and TypeScript.
+## Sobre o Projeto
 
-## 🚀 Getting Started
+Este é um jogo simples de adivinhar o número, construído com React Native e Expo. A aplicação gera um número aleatório entre 0 e 999, e o usuário tem que adivinhá-lo.
 
-To run the app, you need to have Node.js and Expo CLI installed.
+## Funcionalidades
 
-1.  Clone the repository:
-    ```bash
-    git clone <repository-url>
-    ```
-2.  Install the dependencies:
-    ```bash
-    npm install
-    ```
-3.  Run the app:
-    ```bash
-    npm start
-    ```
+- Geração de número aleatório.
+- Entrada do usuário através de um teclado virtual personalizado.
+- Dicas indicando se o número digitado é maior ou menor que o número alvo.
+- Um contador para o número de tentativas.
+- Uma mensagem de "Parabéns!" ao adivinhar o número correto.
+- Um botão de reiniciar para começar um novo jogo.
 
-## 📝 Committing Changes
+## Tecnologias Utilizadas
 
-When committing changes, please follow these steps:
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Native Paper](https://reactnativepaper.com/) para componentes de UI.
 
-1.  Make your changes to the code.
-2.  Stage the changes:
-    ```bash
-    git add .
-    ```
-3.  Commit the changes with a descriptive message:
-    ```bash
-    git commit -m "Your commit message"
-    ```
+## Como Executar
 
-## 🎨 UI Library
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/mockqv/Number-guessing.git
+   cd Number-guessing
+   ```
 
-This project uses [React Native Paper](https://callstack.github.io/react-native-paper/) for UI components.
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+
+3. **Execute a aplicação:**
+   - **Para Android:**
+     ```bash
+     npm run android
+     ```
+   - **Para iOS:**
+     ```bash
+   npm run ios
+     ```
+   - **Para Web:**
+     ```bash
+     npm run web
+     ```
+
+   Alternativamente, você pode executar o aplicativo usando o aplicativo Expo Go em seu dispositivo móvel.
+   ```bash
+   npm start
+   ```
+   Em seguida, escaneie o código QR com o aplicativo Expo Go.
